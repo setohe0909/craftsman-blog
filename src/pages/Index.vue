@@ -1,33 +1,47 @@
+<!--suppress HtmlUnknownTarget -->
 <template>
-  <Layout>
-
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
-  </Layout>
+  <layout>
+    <div
+      class="flex flex-col justify-between py-16 mx-auto hero container-inner sm:flex-row"
+    >
+      <div class="w-full text-4xl font-bold text-center sm:w-3/5 sm:text-left">
+        <g-image src="~/assets/images/home-img.png" width="680"></g-image>
+      </div>
+      <div>
+        <p class="mb-2 text-4xl font-bold tracking-wide text-center text-black-600">
+          Learn to code
+        </p>
+        <p class="mb-2 text-2xl tracking-wide text-gray-700">Master Basics.</p>
+        <p class="mb-2 text-2xl tracking-wide text-gray-700">Develop Skills.</p>
+        <p class="mb-2 text-2xl tracking-wide text-gray-700">Build Projects.</p>
+        <p class="mb-2 text-2xl tracking-wide text-gray-700">Enhance Careers.</p>
+        <p class="mb-2 text-2xl tracking-wide text-gray-700">Change the World.</p>
+      </div>
+    </div>
+    <div
+      class="flex flex-col justify-between py-16 mx-auto hero container-inner sm:flex-row"
+    >
+      <div>
+        <p class="mb-2 text-4xl font-bold tracking-wide text-center text-black-600">
+         Live Coding
+        </p>
+        <p class="mb-2 text-2xl tracking-wide text-gray-700">Master Basics.</p>
+        <p class="mb-2 text-2xl tracking-wide text-gray-700">Develop Skills.</p>
+        <p class="mb-2 text-2xl tracking-wide text-gray-700">Build Projects.</p>
+        <p class="mb-2 text-2xl tracking-wide text-gray-700">Enhance Careers.</p>
+        <p class="mb-2 text-2xl tracking-wide text-gray-700">Change the World.</p>
+      </div>
+      <div class="w-full text-4xl font-bold text-center sm:w-3/5 sm:text-left">
+        <g-image src="~/assets/images/home-img-2.png" width="680"></g-image>
+      </div>
+    </div>
+  </layout>
 </template>
 
 <script>
 export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  }
+  name: 'Index',
 }
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
-</style>
+<style scoped></style>

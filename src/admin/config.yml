@@ -2,8 +2,8 @@ backend:
   name: github
   repo: setohe0909/craftsman-blog
 
-site_url: https://crafstman.lol
-display_url: https://crafstman.lol
+site_url: http://crafstman.lol
+display_url: http://crafstman.lol
 media_folder: 'static/uploads'
 public_folder: '/uploads'
 publish_mode: editorial_workflow
